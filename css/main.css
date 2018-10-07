@@ -3,13 +3,43 @@ body{
 	height: 100%;
 }
 
-.jumbotron, .jumbotron-fluid{
+.home{
 	min-height: 450px;
 	background-image: url("../img/home-bg.jpg");
 	background-size: cover;
 	background-position: center;
 	color: white;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.about{
+	min-height: 450px;
+	background-image: url("../img/about-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact{
+	min-height: 450px;
+	background-image: url("../img/contact-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+.sample{
+	min-height: 600px;
+	background-image: url("../img/post-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -45,8 +75,14 @@ nav .navbar{
 	color: white;
 }
 
+.navbar-brand:hover{
+	color: #a6a6a6;
+}
+
 .jumbotron, .jumbotron-fluid .container{
 	padding-top: 7%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 #display-4{
@@ -54,8 +90,31 @@ nav .navbar{
 	font-size: 80px;
 }
 
+#display-41{
+	font-weight: bolder;
+	font-size: 55px;
+	padding-right: 15%;
+}
+
 #lead{
 	font-size: 25px;
+}
+
+#lead1{
+	font-size: 30px;
+	font-weight: 540;
+}
+
+#extra #lead{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: normal;
+	padding-left: 0;
+	font-size: 20px;
+}
+
+#lead a{
+	text-decoration: underline;
+	color: white;
 }
 
 hr{
@@ -65,7 +124,7 @@ hr{
 }
 
 article{
-	padding: 5% 10% 5% 8%;
+	padding: 5% 16% 5% 18%;
 }
 
 .quotes{
@@ -96,6 +155,19 @@ article{
 	color: grey;
 }
 
+.Blog-about p{
+	font-weight: 535;
+	word-spacing: 3px;
+	font-size: 21px;
+	color: #404040;
+	font-family: Lora,'Times New Roman', sans-serif;
+}
+
+.contact-text p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
 .Blog p a{
 	color: #333;
 }
@@ -109,12 +181,14 @@ article{
 	padding: 5px 0px 5px 0px;
 }
 
-footer{
-	text-align: center;
+.contact-hr{
+	width: 100%;
+	margin-top: 0.6rem;
+	margin-bottom: 0.6rem;
 }
 
-button{
-	float: right;
+footer{
+	text-align: center;
 }
 
 #button:hover{
@@ -122,6 +196,7 @@ button{
 }
 
 #button{
+	float: right;
 	font-weight: 1000;
 	font-size: 14px;
 	color: #4d4d4d;
@@ -130,6 +205,98 @@ button{
 	padding: 10px 20px 12px 15px;
 }
 
+#button1:hover{
+	color: white;
+}
+
+#button1{
+	font-weight: 1000;
+	font-size: 14px;
+	color: #4d4d4d;
+	border: 0.5px solid grey;
+	border-radius: 2px;
+	padding: 12px 25px 14px 25px;
+	width: 90px;
+	height: 50px;
+}
+
 .fab{
-	font-size: 2em;
+	font-size: 2.8em;
+	color: #595959;
+}
+
+i{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+i:hover{
+	color: #248f8f;
+}
+
+.copyright{
+	color: #b3b3b3;
+}
+
+.input{
+	margin: 0;
+	font-size: 20px;
+	width: 100%;
+	border: none;
+	border-color: transparent;
+	height: 50px;
+}
+
+.input:focus{
+	outline: none;
+}
+
+textarea{
+	margin: 0;
+	width: 100%;
+	height: 150px;
+	border: none;
+	border-color: transparent;
+	font-size: 20px;
+}
+
+textarea:focus{
+	outline: none;
+}
+
+::placeholder{
+	font-size: 22px;
+	color: #a6a6a6;
+}
+
+.para{
+	font-size: 20px;
+	word-spacing: 2px;
+	font-family: Lora,'Times New Roman',sans-serif;
+}
+
+.para a{
+	text-decoration: underline;
+	color: #212529;
+}
+
+.little{
+	font-size: 20px;
+	color: #aab3bb;
+	border-left: 5px solid #f1f2f4;
+	padding-left: 15px;
+	font-style: italic;
+	font-family: 'Times';
+}
+
+article h1{
+	color: #212529;
+	font-weight: 500;
+}
+
+figcaption{
+	text-align: center;
+	color: #aab3bb;
+	font-family: Lora,'Times New Roman',sans-serif;
+	font-style: italic;
 }
